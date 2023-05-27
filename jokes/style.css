@@ -1,0 +1,40 @@
+a{
+    color: #f8ff38;
+}
+
+.container{
+    color: white;
+    padding: 7% 0;
+    width:50%;
+    padding-top: 100px;
+    margin:auto;
+    background: linear-gradient(#0099ff,#ff0066);
+    border-radius: 20px;
+    text-align: center;
+    border-spacing: 20px;    
+}
+button{
+    background-color: #f8ff00;
+    color:black ;
+    border: none;
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+}
+button:active{
+    background: #ff000a ;
+    color: #ffffff;
+} 
+
+input{
+    border-radius: 10px;
+    height: 3vh;
+    padding: 0.4% 4%;
+    margin: 0.2vh;
+}
+body{
+    background-image: url(back.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

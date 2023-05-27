@@ -1,0 +1,124 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:  Poppins;
+}
+
+body {
+  height:10in;
+}
+
+.header {
+  position: relative;
+  height: 10vh;
+  font-size: 2.5vh;
+  background-color: #ffbe4e;
+  border-bottom:5px solid #00264d;;
+  padding-left: 7vw;
+  overflow: hidden;
+  
+}
+
+.logo {
+  float: left;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 3px 15px 0 15px;
+  margin: 2px 0;
+}
+
+.logopic {
+  width: 10vh;
+  height: 7vh;
+
+}
+
+.text_logo {
+  clear:left;
+  display: inline-block;
+  font-size: 2em;
+  padding: 5px;
+  position: relative;
+  top: -10px;
+}
+
+
+.logo:hover {
+  opacity: 0.7;
+
+}
+
+.menu {
+  clear: both;
+  position: absolute;
+  right: 0px;
+  margin-right: 40px;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline-flex;  
+	text-align: center;
+  margin: 1vh 0;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #941b1b;
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+
+.menu a:hover {
+  color: #ffbe4e;
+  background-color: #BE2B4B;
+  font-weight: bold;
+
+}
+
+.test {
+  
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background: red;
+    transform: none;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+  }
+
+  .test:hover {
+    transform: translate(200px, 471px)
+    
+  }
+
+  .test2 {
+    background-color: #00264d;
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+  }
+
+  /* .btn-t button{
+    width: 100px;
+    height:  50px;
+    background-color: chartreuse;
+    animation: moreWi 4s;
+    z-index: 6;
+
+  }
+
+
+  @keyframes moreWi {
+    0%{}
+    25%{width: 400px; height: 400px;  background: red;}
+    50%{width: 150px; height: 150px;  background: rgb(52, 255, 2);}
+    100%{width: 200px; height: 200px; background: rgb(255, 0, 234); transform: rotateZ(280deg)}
+
+  } */

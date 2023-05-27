@@ -1,0 +1,45 @@
+  /* @import url(fonts); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  Poppins;
+  }
+
+body{
+    background-color: #444;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 90vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5vh;
+    border: 5px solid #ffbe4e;
+    border-radius: 40px;
+
+}
+
+.mainlogo img {
+
+    display: block;
+    margin: auto;
+    width: 45vh;
+    height: 30vh;
+}
+
+.social_links {
+    display: block;
+}
+
+.social_links a img {
+    
+    width: 40px;
+    height: 40px;
+    
+}

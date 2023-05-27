@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>HAWB Form - Zodbar Cargo</title>
+	<link rel="icon" href="images/zodbar_logo.PNG" />
+	<link rel="stylesheet" href="fonts/Poppins-Medium.ttf">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+	<header id="header" class="fixed-top d-flex align-items-center">
+		<div class="container d-flex align-items-center">
+		  <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/zodbar.jpg" alt="logo" class="logopic"></a></h1>
+		  <!-- Uncomment below if you prefer to use an image logo -->
+		  <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
+	
+		  <nav id="navbar" class="navbar order-last order-lg-0">
+			<ul>
+			  <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+			  <li><a class="nav-link scrollto" href="#about">About</a></li>
+			  <li><a class="nav-link scrollto" href="#services">Customer Service</a></li>
+			  <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+			  <li><a class="nav-link scrollto" href="#team">Team</a></li>
+			  <li><a href="blog.html">Blog</a></li>
+			  <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+				<ul>
+				  <li><a href="#">Drop Down 1</a></li>
+				  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+					<ul>
+					  <li><a href="#">Deep Drop Down 1</a></li>
+					  <li><a href="#">Deep Drop Down 2</a></li>
+					  <li><a href="#">Deep Drop Down 3</a></li>
+					  <li><a href="#">Deep Drop Down 4</a></li>
+					  <li><a href="#">Deep Drop Down 5</a></li>
+					</ul>
+				  </li>
+				  <li><a href="#">Drop Down 2</a></li>
+				  <li><a href="#">Drop Down 3</a></li>
+				  <li><a href="#">Drop Down 4</a></li>
+				</ul>
+			  </li>
+			  <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+			</ul>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+		  </nav><!-- .navbar -->
+	
+		  <a href="#about" class="get-started-btn scrollto">Get Started</a>
+		</div>
+	  </header><!-- End Header -->
+	<div class="form_hawb">
+		<h1>HAWB (House Air Waybill)</h1>
+		<form action="" class="firstpart">
+			<label class="input_a" for="shiper_name" >Shiper Name: </label>
+			<input class="input_a" type="text" placeholder="Your Name..."><br>
+			<label class="input_a" for="ph_number">Phone Number: </label>
+			<input class=" input_a" type="text" placeholder="+(1) 23, 456, 789"><br>
+			<label class="input_a" for="shipment_date">Shipment Date: </label>
+			<input class="input_a" type="date"><br>
+			<label class="input_a" for="consignee_name" >Consignee's Name: </label>
+			<input class="input_a" type="text" placeholder="Consignee's Name here..."><br>
+		</form><br><br>
+		<div class="ship_deatail">
+			<h1>Shipment Details</h1>
+			<form action="" class="firstpart">
+				<label class="input_a" for="Weight">Total Weight: </label>
+				<input class="input_a" type="text" placeholder="Weight in KG..."><br>
+				<label class="input_a" for="declared_value">Declared Value: </label>
+				<input class="input_a" type="text" placeholder="Value..."><br>
+				<label class="input_a" for="ph_number">Phone Number: </label>
+				<input class="input_a" type="text" placeholder="+(1) 23, 456, 789"><br>
+
+			</form>
+		</div>
+		<div id="remember-me-container" class="input-container">
+			<input type="checkbox" class="pri_pol">
+			Agree to <a href="pri_pol.html" target="_blank"> privacy & policy</a>
+		</div>
+		<button class="btn">Go Ship</button>
+	</div>
+	
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+body{
+  background: #44aacc;
+  color: #f55;
+  background-image: url("image.jpeg"), url("room.jpeg");
+  background-repeat: repeat-x, no-repeat ;
+  background-position: bottom, top;
+  background-attachment: scroll;
+  background-size: contain;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: greenyellow;
+    text-align: center;
+    background: black;
+
+}
+.first{
+  color: #66ffff;
+  background-color: rgba(80,70,70,0.5);
+  border: 1px solid orangered;
+  background-clip: border-box;
+  text-align: justify;
+
+}
+
+.second{
+  color: red;
+  background-color: rgba(70,90,10,0.5);
+  border: 1px solid orangered;
+  background-clip: content-box;
+  text-align: right;
+  direction: rtl;
+
+}
+
+.third{
+  color: white;
+  background-color: rgba(50,70,100,0.5);
+  border: 1px solid orangered;
+  background-clip: padding-box;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+
+}
+
+div{
+  padding: 10px;
+}
+
+.box{
+  height: auto;
+  width: 70%;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  outline: 20px solid red;
+  padding: 30px;
+}
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
